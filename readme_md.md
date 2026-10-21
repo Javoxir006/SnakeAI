@@ -88,20 +88,20 @@ Actions are represented as 3-element one-hot encoded vectors relative to the sna
 
 ### 1. Clone or Create the Directory
 ```powershell
-git clone https://github.com/your-username/SnakeAI.git
+git clone [https://github.com/Javoxir006/SnakeAI.git](https://github.com/Javoxir006/SnakeAI.git)
 cd SnakeAI
 ```
 
 ### 2. Install Dependencies
 Using Python 3.13 explicitly:
 ```powershell
-& "C:\Users\Javoh\AppData\Local\Programs\Python\Python313\python.exe" -m pip install pygame torch numpy matplotlib
+pip install pygame torch numpy matplotlib
 ```
 *(Or standard standard pip command: `pip install pygame torch numpy matplotlib`)*
 
 ### 3. Run the Training Agent
 ```powershell
-& "C:\Users\Javoh\AppData\Local\Programs\Python\Python313\python.exe" agent.py
+python agent.py
 ```
 
 ---
